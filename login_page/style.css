@@ -20,12 +20,16 @@ h1{
 
 
 .login_image{
-    width: 90%;
+    /* width: 90%; */
+    -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+    height: 90%;
+    object-fit: contain;
     transition: transform 1s ease-in-out;
 }
 
 .login_image:hover{
-    transform: rotateY(360deg);
+    transform: rotateY(720deg);
 }
 
 
@@ -158,5 +162,17 @@ h1{
     height: 90vh;
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
 
 
